@@ -18,11 +18,6 @@ class Selection():
         self.begin = begin
         self.end = end
 
-    def bool():
-        # User clicks on the plot.
-        print('User selection initiated.')
-        RectangleSelector.set_active(not RectangleSelector.active)
-
     def plot(df, region, filename):
         # Select the data after plotting
         # df contains the data to be selected
